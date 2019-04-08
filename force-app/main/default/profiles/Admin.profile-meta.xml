@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+	<userPermissions>
+    <enabled>false</enabled>
+    <name>CreateWorkBadgeDefinition</name>
+</userPermissions>
     <applicationVisibilities>
         <application>DreamHouse</application>
         <default>false</default>
@@ -215,10 +219,6 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <userLicense>Salesforce</userLicense>
-	    <userPermissions>
-        <enabled>false</enabled>
-        <name>CreateWorkBadgeDefinition</name>
-    </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
         <name>ActivateContract</name>
